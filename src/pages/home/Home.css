@@ -1,0 +1,10 @@
+.home {
+    max-width: 1200px;
+    margin: 60px auto;
+}
+.error .dark {
+    color: #e4e4e4;
+}
+.loading.dark {
+    color: #e4e4e4;
+}

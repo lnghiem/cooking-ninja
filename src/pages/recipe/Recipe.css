@@ -1,0 +1,39 @@
+.recipe {
+    max-width: 1200px;
+    /* top and bottom margin of 40px and auto left and right so it center */
+    margin: 40px auto;
+    text-align: center;
+    background: #fff;
+    padding: 40px;
+    /* box-sizing allows us to include the padding and border in an element's total width and height */
+    box-sizing: border-box;
+  }
+  .recipe ul {
+    /* flex allows the items to be displayed side by side */
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .recipe li {
+    list-style-type: none;
+    margin-right: 10px;
+    color: #777;
+  }
+  .recipe li::after {
+    /* inserting a comma after each li tag*/
+    content: ",";
+  }
+  .recipe li:last-child::after {
+    /* insert a period after the last li tag */
+    content: ".";
+  }
+  .method {
+    text-align: left;
+    line-height: 1.5em;
+  }
+  /* dark mode */
+  .recipe.dark {
+    background: #555;
+    color: #e4e4e4;
+  }

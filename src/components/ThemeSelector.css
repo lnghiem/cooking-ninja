@@ -1,0 +1,31 @@
+.theme-selector {
+    display: flex;
+    /* put the content to the right */
+    justify-content: flex-end;
+  align-items: center;
+  max-width: 1200px;
+  margin: 20px auto
+}
+.theme-buttons div {
+    /* inline-block: makes all the div tags to be side by side AND
+     allow to control the wdith and height */
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: 15px;
+    /* this styles creates a circle */
+    border-radius: 50%;
+}
+/* styles for the mode icon */
+.mode-toggle{
+    /* put a big margin between the div w/classname mode-toggle (which contains the mode icon img).
+    AND the div w/classname theme-buttons (which contains the three color circles).
+    Essentially this pushes the div that contains the mode icon way over the left. */
+    margin-right: auto;
+}
+.mode-toggle img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}

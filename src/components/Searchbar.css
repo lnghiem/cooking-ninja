@@ -1,0 +1,10 @@
+.searchbar form {
+    /* this make the lavel and the input sit next to earch other on the same line */
+    display: flex;
+    /* align the items to the center */
+    align-items: center;
+  }
+  .searchbar input {
+    margin-left: 10px;
+  }
+  
